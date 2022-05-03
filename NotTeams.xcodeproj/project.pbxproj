@@ -11,6 +11,7 @@
 		715D2DF028208E32006D663A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715D2DEF28208E32006D663A /* ContentView.swift */; };
 		715D2DF228208E33006D663A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 715D2DF128208E33006D663A /* Assets.xcassets */; };
 		715D2DF528208E33006D663A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 715D2DF428208E33006D663A /* Preview Assets.xcassets */; };
+		715D2DFD28208F52006D663A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715D2DFC28208F52006D663A /* AppDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		715D2DF128208E33006D663A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		715D2DF428208E33006D663A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		715D2DF628208E33006D663A /* NotTeams.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NotTeams.entitlements; sourceTree = "<group>"; };
+		715D2DFC28208F52006D663A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +54,7 @@
 		715D2DEC28208E32006D663A /* NotTeams */ = {
 			isa = PBXGroup;
 			children = (
+				715D2DFC28208F52006D663A /* AppDelegate.swift */,
 				715D2DED28208E32006D663A /* NotTeamsApp.swift */,
 				715D2DEF28208E32006D663A /* ContentView.swift */,
 				715D2DF128208E33006D663A /* Assets.xcassets */,
@@ -139,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				715D2DFD28208F52006D663A /* AppDelegate.swift in Sources */,
 				715D2DF028208E32006D663A /* ContentView.swift in Sources */,
 				715D2DEE28208E32006D663A /* NotTeamsApp.swift in Sources */,
 			);
