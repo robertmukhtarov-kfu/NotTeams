@@ -12,6 +12,15 @@
 		715D2DF228208E33006D663A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 715D2DF128208E33006D663A /* Assets.xcassets */; };
 		715D2DF528208E33006D663A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 715D2DF428208E33006D663A /* Preview Assets.xcassets */; };
 		715D2DFD28208F52006D663A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715D2DFC28208F52006D663A /* AppDelegate.swift */; };
+		7196B5E228415FE400DEAE84 /* ChannelsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7196B5E128415FE400DEAE84 /* ChannelsViewController.swift */; };
+		71AB5F7E2846D59400C0DDB9 /* ChannelRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71AB5F7D2846D59400C0DDB9 /* ChannelRepository.swift */; };
+		71AB5F822846D69800C0DDB9 /* TaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71AB5F812846D69800C0DDB9 /* TaskViewController.swift */; };
+		71AB5F842846D6A200C0DDB9 /* TasksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71AB5F832846D6A200C0DDB9 /* TasksViewController.swift */; };
+		71AB5F862846D6B300C0DDB9 /* TaskRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71AB5F852846D6B300C0DDB9 /* TaskRepository.swift */; };
+		71AB5F892846D78200C0DDB9 /* PostsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71AB5F882846D78200C0DDB9 /* PostsViewController.swift */; };
+		71AB5F8B2846D89E00C0DDB9 /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71AB5F8A2846D89E00C0DDB9 /* PostViewController.swift */; };
+		71AE300F2844050C0092A36B /* ChannelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71AE300E2844050C0092A36B /* ChannelViewController.swift */; };
+		71AE3011284414150092A36B /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71AE3010284414150092A36B /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +31,15 @@
 		715D2DF428208E33006D663A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		715D2DF628208E33006D663A /* NotTeams.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NotTeams.entitlements; sourceTree = "<group>"; };
 		715D2DFC28208F52006D663A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7196B5E128415FE400DEAE84 /* ChannelsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelsViewController.swift; sourceTree = "<group>"; };
+		71AB5F7D2846D59400C0DDB9 /* ChannelRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelRepository.swift; sourceTree = "<group>"; };
+		71AB5F812846D69800C0DDB9 /* TaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskViewController.swift; sourceTree = "<group>"; };
+		71AB5F832846D6A200C0DDB9 /* TasksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksViewController.swift; sourceTree = "<group>"; };
+		71AB5F852846D6B300C0DDB9 /* TaskRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskRepository.swift; sourceTree = "<group>"; };
+		71AB5F882846D78200C0DDB9 /* PostsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsViewController.swift; sourceTree = "<group>"; };
+		71AB5F8A2846D89E00C0DDB9 /* PostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
+		71AE300E2844050C0092A36B /* ChannelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelViewController.swift; sourceTree = "<group>"; };
+		71AE3010284414150092A36B /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +75,8 @@
 				715D2DFC28208F52006D663A /* AppDelegate.swift */,
 				715D2DED28208E32006D663A /* NotTeamsApp.swift */,
 				715D2DEF28208E32006D663A /* ContentView.swift */,
+				71AB5F7F2846D65F00C0DDB9 /* Channel */,
+				71AE3010284414150092A36B /* Extensions.swift */,
 				715D2DF128208E33006D663A /* Assets.xcassets */,
 				715D2DF628208E33006D663A /* NotTeams.entitlements */,
 				715D2DF328208E33006D663A /* Preview Content */,
@@ -70,6 +90,37 @@
 				715D2DF428208E33006D663A /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		71AB5F7F2846D65F00C0DDB9 /* Channel */ = {
+			isa = PBXGroup;
+			children = (
+				71AB5F872846D71400C0DDB9 /* Posts */,
+				71AB5F802846D66E00C0DDB9 /* Tasks */,
+				7196B5E128415FE400DEAE84 /* ChannelsViewController.swift */,
+				71AE300E2844050C0092A36B /* ChannelViewController.swift */,
+				71AB5F7D2846D59400C0DDB9 /* ChannelRepository.swift */,
+			);
+			path = Channel;
+			sourceTree = "<group>";
+		};
+		71AB5F802846D66E00C0DDB9 /* Tasks */ = {
+			isa = PBXGroup;
+			children = (
+				71AB5F812846D69800C0DDB9 /* TaskViewController.swift */,
+				71AB5F832846D6A200C0DDB9 /* TasksViewController.swift */,
+				71AB5F852846D6B300C0DDB9 /* TaskRepository.swift */,
+			);
+			path = Tasks;
+			sourceTree = "<group>";
+		};
+		71AB5F872846D71400C0DDB9 /* Posts */ = {
+			isa = PBXGroup;
+			children = (
+				71AB5F882846D78200C0DDB9 /* PostsViewController.swift */,
+				71AB5F8A2846D89E00C0DDB9 /* PostViewController.swift */,
+			);
+			path = Posts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,9 +193,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71AB5F8B2846D89E00C0DDB9 /* PostViewController.swift in Sources */,
+				7196B5E228415FE400DEAE84 /* ChannelsViewController.swift in Sources */,
 				715D2DFD28208F52006D663A /* AppDelegate.swift in Sources */,
 				715D2DF028208E32006D663A /* ContentView.swift in Sources */,
+				71AE3011284414150092A36B /* Extensions.swift in Sources */,
+				71AB5F862846D6B300C0DDB9 /* TaskRepository.swift in Sources */,
+				71AB5F892846D78200C0DDB9 /* PostsViewController.swift in Sources */,
+				71AB5F7E2846D59400C0DDB9 /* ChannelRepository.swift in Sources */,
+				71AB5F822846D69800C0DDB9 /* TaskViewController.swift in Sources */,
 				715D2DEE28208E32006D663A /* NotTeamsApp.swift in Sources */,
+				71AE300F2844050C0092A36B /* ChannelViewController.swift in Sources */,
+				71AB5F842846D6A200C0DDB9 /* TasksViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

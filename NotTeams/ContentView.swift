@@ -2,7 +2,6 @@
 //  ContentView.swift
 //  NotTeams
 //
-//  Created by Robert Mukhtarov on 03.05.2022.
 //
 
 import SwiftUI
@@ -14,13 +13,13 @@ struct ContentView: View {
                 NavigationLink(destination: Text("Чаты")) {
                     SidebarItem(title: "Чаты", image: "bubble.left.and.bubble.right")
                 }
-                NavigationLink(destination: Text("Каналы")) {
+                NavigationLink(destination: ChannelsViewController()) {
                     SidebarItem(title: "Каналы", image: "person.3")
                 }
                 NavigationLink(destination: Text("Расписание")) {
                     SidebarItem(title: "Расписание", image: "calendar")
                 }
-                NavigationLink(destination: Text("Задания")) {
+                NavigationLink(destination: ChannelViewController()) {
                     SidebarItem(title: "Задания", image: "doc.richtext")
                 }
                 NavigationLink(destination: Text("Настройки")) {

@@ -2,7 +2,6 @@
 //  NotTeamsApp.swift
 //  NotTeams
 //
-//  Created by Robert Mukhtarov on 03.05.2022.
 //
 
 import SwiftUI
@@ -17,7 +16,7 @@ struct NotTeamsApp: App {
                 .onAppear {
                     NSWindow.allowsAutomaticWindowTabbing = false
                 }
-        }
+        }.windowStyle(HiddenTitleBarWindowStyle())
         .commands {
             SidebarCommands()
         }
